@@ -1,0 +1,279 @@
+.main-content {
+    width: 1024px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-tabs>li,
+.nav-item>li {
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs,
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    padding: 28px !important;
+    width: 256px;
+    height: 302px;
+}
+
+.nav-item:hover {
+    z-index: 4;
+}
+
+.nav-img {
+    margin-top: 0px;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav-link,
+.nav-link:hover {
+    transition: .12s background-color;
+}
+
+.nav-link:hover {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#resp-tab:hover {
+    background-color: #bed7fc;
+    ;
+}
+
+#ecomm-tab:hover {
+    background-color: #fff3bd;
+}
+
+#dailyblog-tab:hover {
+    background-color: #acffd8;
+}
+
+#search_based-tab:hover {
+    background-color: #ffd2b1;
+}
+
+.tab-content {
+    height: 788px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-pane {
+    width: 1024px;
+    height: 790px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+}
+
+.tab-pane h1 {
+    text-align: center;
+    position: relative;
+    top: 360px;
+}
+
+.tab-ecomm-c-header,
+.tab-ecomm-c-par1,
+.tab-ecomm-c-par2 {
+    text-align: left;
+    width: 898px;
+}
+
+.tab-ecomm-image {
+    margin-top: 58px;
+}
+
+.tab-ecomm-c-header {
+    margin-top: 14px;
+    color: rgba(79, 79, 79, 1);
+    font-size: 38px;
+}
+
+.tab-ecomm-c-par1 {
+    margin-top: 16px;
+    color: rgba(129, 129, 129, 1);
+    font-size: 13.5px;
+    line-height: 1.7;
+}
+
+/* "Choose us" content  */
+
+.choose-us-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1024px;
+    height: 417px;
+}
+
+.checkmark-img {
+    width: 24px;
+    height: 24px;
+    background-image: url("../pics/checkmark.svg");
+    background-size: cover;
+}
+
+.choose-us-img-container {
+    position: relative;
+    display: flex;
+    margin-top: 22px;
+    right: 19px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-us-text-block {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 9px;
+    width: 535px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.choose-us-text-block>ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 16px;
+}
+
+.choose-us-feature-cont {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+}
+
+.choose-us-header {
+    font-size: 33px;
+    color: rgba(79, 79, 79, 1);
+    margin-bottom: 24px;
+}
+
+.choose-us-feature-text {
+    white-space: nowrap;
+    margin-left: 13px;
+    color: rgba(129, 129, 129, 1);
+}
+
+.forms-block {
+    display: flex;
+    height: 166px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.divider {
+    border-top: 1px solid #e4e4e4;
+    height: 1px;
+    width: 1280px;
+    ruby-align: center;
+}
+
+/* Forms */
+
+.left-form {
+    border-radius: 5px;
+    margin-top: 23px;
+    margin-right: 66px;
+    width: 470px;
+    height: 109px;
+    background-color: #e57526;
+}
+
+.right-form {
+    border-radius: 5px;
+    margin-top: 23px;
+    width: 470px;
+    height: 109px;
+    background-color: #05d3f2
+}
+
+.form-content {
+    margin-left: 24px;
+    margin-top: 9px;
+}
+
+.form-header {
+    font-size: 28px;
+    color: white;
+}
+
+.form-inputs-cont {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 9px;
+}
+
+.member-input-username {
+    width: 155px;
+    background-color: #e7e7e7;
+    border: none;
+    text-indent: 13px;
+}
+
+.member-input-password {
+    width: 150px;
+    background-color: #e7e7e7;
+    margin-left: 12px;
+    border: none;
+    text-indent: 13px;
+}
+
+.form-inputs-cont input::placeholder {
+    color: #4f4f4f;
+}
+
+.member-form-btn-login {
+    width: 94px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #434343;
+    color: white;
+    font-size: 16px;
+    border: none;
+    transition: .15s background-color;
+}
+
+.subscribe-input-email {
+    width: 265px;
+    background-color: #e7e7e7;
+    border: none;
+    text-indent: 13px;
+}
+
+.subscribe-form-btn {
+    width: 111px;
+    height: 30px;
+    margin-left: 50px;
+    background-color: #049ab0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    transition: .15s ease-out background-color;
+}
+
+.subscribe-form-btn:hover,
+.member-form-btn-login:hover {
+    background-color: rgb(136, 0, 157);
+    transition: .15s background-color;
+}
